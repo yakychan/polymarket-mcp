@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "polymarket-five-minute-mcp"
+version = "0.2.0"
+description = "MCP de Polymarket Up/Down 5m con paper trading y ejecución live"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["mcp==1.30.0", "py-clob-client-v2==1.1.0", "httpx==0.28.1", "python-dotenv==1.2.3", "websockets==15.0.1"]
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1"]
+
+[project.scripts]
+polymarket-mcp = "polymarket_mcp.server:main"
+
+[tool.setuptools.packages.find]
+include = ["polymarket_mcp*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "polymarket": {
+      "command": "C:/ruta/polymarket-mcp/.venv/Scripts/python.exe",
+      "args": ["C:/ruta/polymarket-mcp/run_mcp.py"],
+      "env": {"POLYMARKET_ENV_FILE": "C:/ruta/polymarket-mcp/.env"}
+    }
+  }
+}

@@ -49,6 +49,8 @@ Current validation: 65 automated tests, public paper smoke test, and Chainlink R
 
 ---
 
+[![TEST LOCAL](https://img.youtube.com/vi/TkdXEhvAggg/0.jpg)](https://www.youtube.com/watch?v=TkdXEhvAggg)
+
 ## Documentación detallada en español
 
 English version: [README.en.md](README.en.md). Las guías en inglés están junto a cada documento español con el sufijo `_en.md`.

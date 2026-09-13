@@ -120,3 +120,5 @@ Live mode requires the CLOB credentials and wallet settings described in `.env.e
 `build_share.py` creates an allowlisted ZIP and excludes `.env`, databases, backups, private client settings, virtual environments, and inherited bots. Share the ZIP, not the entire work directory. See [SHARING_en.md](docs/SHARING_en.md), [ARCHITECTURE_en.md](docs/ARCHITECTURE_en.md), and [VALIDATION_en.md](docs/VALIDATION_en.md).
 
 Known limits: paper results do not model all live latency and liquidity competition; RTDS has no replay; live fees may be unknown per fill; live positions are limited by the Data API response; and the monitor requires an awake, connected process. Refer to the linked guides for recovery details.
+
+[![TEST LOCAL](https://img.youtube.com/vi/TkdXEhvAggg/0.jpg)](https://www.youtube.com/watch?v=TkdXEhvAggg)
